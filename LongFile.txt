@@ -1,0 +1,55 @@
+__________________________________
+ 
+ARRHENIUS Build 1.0 September 2012
+__________________________________
+ 
+ Enable [y/ENTER] | Disable [n]
+ 
+RUN Transient Loading ? y/n : > |ADIF Selected|
+Plot while calculating? y/n : > |Plot Enabled|
+ 
+Use design specific thermal characteristics? y/n : n
+> |Defaults Selected|
+ 
+Preceding load? 0-1 p.u : 1
+Preceding Load = 1.00 p.u
+End load? 0-1 p.u : 1
+End Load = 1.00 p.u
+ 
+Forced cooling loss? 0-1 p.u : > |0 p.u default|
+ 
+Set End-time? y/n : y
+> |Set End-time Enabled|
+Run up to? [min] : 10
+End Time = 10 min
+ 
+Use thermally upgraded paper ? y/n : n
+> |Non-thermally Upgraded Paper Selected|
+ 
+Cooling Losses = 2.17 kW
+Winding Losses = 3.04 kW
+Hot-spot Factor = 1.3
+Gradient = 3.85
+ 
+Loss ratio = 5.0
+Winding Time Constant = 4.0
+Oil Time Constant = 180.0
+Oil Exponent = 0.8
+Winding Exponent = 1.6
+k11 Factor = 1.0
+k21 Factor = 1.0
+k21 Factor = 2.0
+ 
+>> START Transient Cyclic Loading (ADIF)
+ 
+ 
+# Calculating STEP 1
+ 
+  Continuous Loading Achieved at K = 1.00 after 10 min / 0.17 hrs
+  Top-oil = 130.00 C | Hot-spot = 135.00 C
+  Loss of life = 0.499 days
+ 
+ 
+>> Transient Cyclic Loading COMPLETE
+ 
+Elapsed time is 0.149949 seconds.

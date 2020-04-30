@@ -1,0 +1,98 @@
+__________________________________
+ 
+ARRHENIUS Build 1.0 September 2012
+__________________________________
+ 
+ Enable [y/ENTER] | Disable [n]
+ 
+RUN Transient Loading ? y/n : > |ADIF Selected|
+Plot while calculating? y/n : > |Plot Enabled|
+ 
+Use design specific thermal characteristics? y/n : n
+> |Defaults Selected|
+ 
+Preceding load? 0-1 p.u : > |1 p.u default|
+End load? 0-1 p.u : 1.3
+End Load = 1.30 p.u
+ 
+Forced cooling loss? 0-1 p.u : > |0 p.u default|
+ 
+Set End-time? y/n : y
+> |Set End-time Enabled|
+Run up to? [min] : 60
+End Time = 60 min
+ 
+Use thermally upgraded paper ? y/n : n
+> |Non-thermally Upgraded Paper Selected|
+<a href="matlab: opentoline('C:\Users\Christo.Holtshausen\Google Drive\Powergen Paper\ARRHENIUS_StandAlone\ARRHENIUS_StandAlone.m',195,1)">195 </a>PLL = 3.253; % Total Load losses [kW]
+if system_dependent('IsDebugMode')==1, dbcont; end
+ 
+Cooling Losses = 2.17 kW
+Winding Losses = 3.04 kW
+Hot-spot Factor = 1.3
+Gradient = 3.85
+ 
+Loss ratio = 5.0
+Winding Time Constant = 4.0
+Oil Time Constant = 180.0
+Oil Exponent = 0.8
+Winding Exponent = 1.6
+k11 Factor = 1.0
+k21 Factor = 1.0
+k21 Factor = 2.0
+ 
+>> START Transient Cyclic Loading (ADIF)
+ 
+ 
+# Calculating STEP 1
+ 
+  Continuous Loading Achieved at K = 1.00 after 60 min / 1.00 hrs
+  Top-oil = 80.00 C | Hot-spot = 85.00 C
+  Loss of life = 0.009 days
+ 
+ 
+# Calculating STEP 2
+ 
+  Continuous Loading Achieved at K = 1.05 after 60 min / 1.00 hrs
+  Top-oil = 80.96 C | Hot-spot = 86.37 C
+  Loss of life = 0.011 days
+ 
+ 
+# Calculating STEP 3
+ 
+  Continuous Loading Achieved at K = 1.10 after 60 min / 1.00 hrs
+  Top-oil = 81.96 C | Hot-spot = 87.78 C
+  Loss of life = 0.013 days
+ 
+ 
+# Calculating STEP 4
+ 
+  Continuous Loading Achieved at K = 1.15 after 60 min / 1.00 hrs
+  Top-oil = 82.98 C | Hot-spot = 89.23 C
+  Loss of life = 0.015 days
+ 
+ 
+# Calculating STEP 5
+ 
+  Continuous Loading Achieved at K = 1.20 after 60 min / 1.00 hrs
+  Top-oil = 84.03 C | Hot-spot = 90.73 C
+  Loss of life = 0.018 days
+ 
+ 
+# Calculating STEP 6
+ 
+  Continuous Loading Achieved at K = 1.25 after 60 min / 1.00 hrs
+  Top-oil = 85.12 C | Hot-spot = 92.26 C
+  Loss of life = 0.021 days
+ 
+ 
+# Calculating STEP 7
+ 
+  Continuous Loading Achieved at K = 1.30 after 60 min / 1.00 hrs
+  Top-oil = 86.23 C | Hot-spot = 93.83 C
+  Loss of life = 0.026 days
+ 
+ 
+>> Transient Cyclic Loading COMPLETE
+ 
+Elapsed time is 8.201955 seconds.

@@ -1,0 +1,76 @@
+__________________________________
+ 
+ARRHENIUS Build 1.0 September 2012
+__________________________________
+ 
+ Enable [y/ENTER] | Disable [n]
+ 
+RUN Transient Loading ? y/n : > |ADIF Selected|
+Plot while calculating? y/n : > |Plot Enabled|
+ 
+Use design specific thermal characteristics? y/n : > |Design Characteristics Selected|
+ 
+Preceding load? 0-1 p.u : > |1 p.u default|
+End load? 0-1 p.u : > |1.2 p.u default|
+ 
+Forced cooling loss? 0-1 p.u : > |0 p.u default|
+ 
+Set End-time? y/n : > |Set End-time Disabled|
+ 
+Use thermally upgraded paper ? y/n : > |Thermally Upgraded Paper Selected|
+ 
+Cooling Losses = 224.50 kW
+Winding Losses = 200.40 kW
+Hot-spot Factor = 1.3
+Gradient = 11.77
+ 
+Loss ratio = 13.1
+Winding Time Constant = 3.5
+Oil Time Constant = 101.5
+Oil Exponent = 0.8
+Winding Exponent = 1.3
+k11 Factor = 0.5
+k21 Factor = 2.0
+k21 Factor = 2.0
+ 
+>> START Transient Cyclic Loading (ADIF)
+ 
+ 
+# Calculating STEP 1
+ 
+  Continuous Loading Achieved at K = 1.00 after 2 min / 0.03 hrs
+  Top-oil = 81.00 C | Hot-spot = 96.30 C
+  Loss of life = 0.000 days
+ 
+ 
+# Calculating STEP 2
+ 
+  Continuous Loading Achieved at K = 1.05 after 82 min / 1.37 hrs
+  Top-oil = 84.10 C | Hot-spot = 100.59 C
+  Loss of life = 0.021 days
+ 
+ 
+# Calculating STEP 3
+ 
+  Continuous Loading Achieved at K = 1.10 after 116 min / 1.93 hrs
+  Top-oil = 88.04 C | Hot-spot = 105.56 C
+  Loss of life = 0.051 days
+ 
+ 
+# Calculating STEP 4
+ 
+  Continuous Loading Achieved at K = 1.15 after 138 min / 2.30 hrs
+  Top-oil = 92.13 C | Hot-spot = 110.68 C
+  Loss of life = 0.103 days
+ 
+ 
+# Calculating STEP 5
+ 
+  Continuous Loading Achieved at K = 1.20 after 154 min / 2.57 hrs
+  Top-oil = 96.34 C | Hot-spot = 115.92 C
+  Loss of life = 0.194 days
+ 
+ 
+>> Transient Cyclic Loading COMPLETE
+ 
+Elapsed time is 2.649465 seconds.
